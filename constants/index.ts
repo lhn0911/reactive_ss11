@@ -1,4 +1,3 @@
-// Colors
 export const COLORS = {
   primary: "#f70808ff",
   inactive: "#4e4b4bff",
@@ -12,7 +11,6 @@ export const COLORS = {
   background: "#f5f5f5",
 } as const;
 
-// Product Status
 export const PRODUCT_STATUS = {
   DRAFT: "draft",
   ACTIVE: "active", 
@@ -37,12 +35,10 @@ export const STATUS_CONFIG = {
   },
 } as const;
 
-// Storage Keys
 export const STORAGE_KEYS = {
   PRODUCTS: "@products_v1",
 } as const;
 
-// Validation Messages
 export const VALIDATION_MESSAGES = {
   NAME_REQUIRED: "Tên không được để trống",
   PRICE_INVALID: "Giá phải là số > 0",
